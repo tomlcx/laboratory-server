@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="signinMapper">
+    <!--启用二级缓存-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <!--sql片段-->
+    <sql id="findAllSignin">
+        SELECT * FROM signin s
+    </sql>
+
+    <select id="findSigninRECByDate" parameterType="java.sql.Date" resultType="com.example.jiashuaowei.entity.Signin">
+        <include refid="findAllSignin"/>
+        WHERE s.date = #{date}
+    </select>
+
+    <select id="findSigninRECByTchId" parameterType="int" resultType="com.example.jiashuaowei.entity.Signin">
+        <include refid="findAllSignin"/>
+        WHERE s.teacher_id = #{teacherId}
+    </select>
+
+    <delete id="deleteSigninRECById" parameterType="int">
+        DELETE FROM signin
+        WHERE ID = #{id}
+    </delete>
+
+    <insert id="insertSigninREC" parameterType="com.example.jiashuaowei.entity.Signin">
+        INSERT INTO signin(time, teacher_id, date) VALUES (#{time}, #{teacherId}, #{date})
+    </insert>
+
+</mapper>

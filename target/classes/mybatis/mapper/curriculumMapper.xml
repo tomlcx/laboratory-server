@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="curriculumMapper">
+    <!--启用二级缓存-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <!--sql片段-->
+    <sql id="findAllCurriculum">
+        SELECT * FROM curriculum cc
+    </sql>
+
+    <select id="findCurrByTchId" parameterType="int"
+            resultType="com.example.jiashuaowei.entity.Curriculum">
+        <include refid="findAllCurriculum"/>
+        WHERE cc.teacher_id = #{teacherId}
+    </select>
+
+    <select id="findCurrByDate" parameterType="java.sql.Date" resultType="com.example.jiashuaowei.entity.Curriculum">
+        <include refid="findAllCurriculum"/>
+        WHERE cc.date = #{date}
+    </select>
+
+    <insert id="insertACurr" parameterType="com.example.jiashuaowei.entity.Curriculum">
+        INSERT INTO curriculum(start_time,end_time,name,during,date,teacher_id)
+        VALUES (#{startTime}, #{endTime}, #{name}, #{during}, #{date}, #{teacherId})
+    </insert>
+
+    <delete id="deleteACurrById" parameterType="int">
+        DELETE FROM curriculum WHERE id = #{id}
+    </delete>
+
+</mapper>

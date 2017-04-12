@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="faultMapper">
+    <!--启用二级缓存-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <!--sql片段-->
+    <sql id="findAllFault">
+        SELECT * FROM fault f
+    </sql>
+
+
+    <select id="findFaultsByDate" parameterType="java.sql.Date"
+            resultType="com.example.jiashuaowei.entity.Fault">
+        <include refid="findAllFault"/>
+        WHERE f.date = #{date}
+    </select>
+
+    <select id="findAllFaults" resultType="com.example.jiashuaowei.entity.Fault">
+        <include refid="findAllFault"/>
+    </select>
+
+    <select id="findFaultsByTchId" parameterType="int" resultType="com.example.jiashuaowei.entity.Fault">
+        <include refid="findAllFault"/>
+        WHERE f.teacher_id = #{teacherId}
+    </select>
+
+    <select id="findFaultsIsChecked" resultType="com.example.jiashuaowei.entity.Fault">
+        <include refid="findAllFault"/>
+        WHERE f.is_checked = TRUE
+    </select>
+
+    <select id="findFaultsIsNotChecked" resultType="com.example.jiashuaowei.entity.Fault">
+        <include refid="findAllFault"/>
+        WHERE f.is_checked != TRUE
+    </select>
+
+    <insert id="insertAFault" parameterType="com.example.jiashuaowei.entity.Fault">
+        INSERT INTO fault (time, description, is_checked, teacher_id, date) VALUES (#{time}, #{description}, #{isChecked}, #{teacherId}, #{date})
+    </insert>
+
+    <delete id="deleteAFaultById" parameterType="int">
+        DELETE FROM fault WHERE id = #{id}
+    </delete>
+</mapper>
