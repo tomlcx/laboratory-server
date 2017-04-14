@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba4ea1c4-81f9-4122-aeb4-27683cae9638" name="Default" comment="" />
+    <list default="true" id="ba4ea1c4-81f9-4122-aeb4-27683cae9638" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/CurriculumService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/FaultService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/SigninService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/TeacherService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/CurriculumServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/FaultServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/SigninServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/TeacherServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/jiashuaowei/dao/CurriculumDao.class" afterPath="$PROJECT_DIR$/target/classes/com/example/jiashuaowei/dao/CurriculumDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,91 +77,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="teacherMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/teacherMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-              <folding>
-                <marker date="1491983401000" expanded="true" signature="223:246" ph="SELECT * FRO... teacher" />
-                <marker date="1491983401000" expanded="true" signature="499:554" ph="INSERT INTO teacher... " />
-                <marker date="1491983401000" expanded="true" signature="631:667" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Curriculum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Curriculum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Teacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/TeacherDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/TeacherDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaultDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/FaultDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signinMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/signinMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-              <folding>
-                <marker date="1491982735000" expanded="true" signature="316:338" ph="SELECT * FRO... signin" />
-                <marker date="1491982735000" expanded="true" signature="831:874" ph="DELETE FROM " />
-                <marker date="1491982735000" expanded="true" signature="986:1068" ph="INSERT INTO signin... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,9 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sqlSessio</find>
-      <find>sqlSession</find>
-      <find>sqlSessionF</find>
       <find>sqlSessionFa</find>
       <find>sqlSessionFac</find>
       <find>sqlSessionFact</find>
@@ -172,7 +98,6 @@
       <find>int</find>
       <find>_</find>
       <find>findCurrByTchId</find>
-      <find>findFaultsIsChecked</find>
       <find>findFaultsByDate</find>
       <find>f.date</find>
       <find>cm</find>
@@ -190,6 +115,10 @@
       <find>time</find>
       <find>TchId</find>
       <find>findAllTch</find>
+      <find>deleteATchById</find>
+      <find>isChecked</find>
+      <find>findFaultsIsChecked</find>
+      <find>deleteSigninRECById</find>
     </findStrings>
     <replaceStrings>
       <replace>com.example.jiashuaowei</replace>
@@ -199,6 +128,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -218,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/CurriculumDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/curriculumMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/FaultDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Fault.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/FaultDaoTest.java" />
@@ -229,8 +160,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/SigninDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/TeacherDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/teacherMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/TeacherDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/CurriculumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/CurriculumServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/FaultService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/teacherMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/TeacherServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/FaultServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/SigninServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/SigninService.java" />
       </list>
     </option>
   </component>
@@ -309,6 +249,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -358,6 +301,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiashuaowei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiashuaowei" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -539,6 +516,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboratory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jiashuaowei" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -604,6 +611,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.jiashuaowei.service" />
       <recent name="com.example.jiashuaowei.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -631,20 +639,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherDaoTest.deleteATchById">
-    <configuration default="false" name="SigninDaoTest.findSigninRECByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SigninServiceTest.findSigninRECByDate">
+    <configuration default="false" name="FaultServiceTest.findFaultsIsNotChecked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.jiashuaowei.dao.*" />
+          <option name="PATTERN" value="com.example.jiashuaowei.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="laboratory" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.dao.SigninDaoTest" />
-      <option name="METHOD_NAME" value="findSigninRECByDate" />
+      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.service.FaultServiceTest" />
+      <option name="METHOD_NAME" value="findFaultsIsNotChecked" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -658,18 +666,70 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SigninDaoTest.findSigninRECByTchId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SigninServiceTest.deleteSigninRECById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.jiashuaowei.dao.*" />
+          <option name="PATTERN" value="com.example.jiashuaowei.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="laboratory" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.dao.SigninDaoTest" />
+      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.service.SigninServiceTest" />
+      <option name="METHOD_NAME" value="deleteSigninRECById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SigninServiceTest.insertSigninREC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.jiashuaowei.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="laboratory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.service.SigninServiceTest" />
+      <option name="METHOD_NAME" value="insertSigninREC" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SigninServiceTest.findSigninRECByTchId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.jiashuaowei.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="laboratory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.service.SigninServiceTest" />
       <option name="METHOD_NAME" value="findSigninRECByTchId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -684,71 +744,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TeacherDaoTest.findAllTch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SigninServiceTest.findSigninRECByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.jiashuaowei.dao.*" />
+          <option name="PATTERN" value="com.example.jiashuaowei.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="laboratory" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.dao.TeacherDaoTest" />
-      <option name="METHOD_NAME" value="findAllTch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TeacherDaoTest.insertATch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.jiashuaowei.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="laboratory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.dao.TeacherDaoTest" />
-      <option name="METHOD_NAME" value="insertATch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TeacherDaoTest.deleteATchById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.jiashuaowei.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="laboratory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.dao.TeacherDaoTest" />
-      <option name="METHOD_NAME" value="deleteATchById" />
+      <option name="PACKAGE_NAME" value="com.example.jiashuaowei.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.jiashuaowei.service.SigninServiceTest" />
+      <option name="METHOD_NAME" value="findSigninRECByDate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1234,19 +1242,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SigninDaoTest.findSigninRECByDate" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SigninDaoTest.findSigninRECByTchId" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.findAllTch" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.insertATch" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.deleteATchById" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FaultServiceTest.findFaultsIsNotChecked" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.deleteSigninRECById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.insertSigninREC" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.findSigninRECByTchId" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.findSigninRECByDate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.deleteATchById" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.insertATch" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TeacherDaoTest.findAllTch" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SigninDaoTest.findSigninRECByDate" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SigninDaoTest.findSigninRECByTchId" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.findSigninRECByDate" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.findSigninRECByTchId" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.insertSigninREC" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SigninServiceTest.deleteSigninRECById" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FaultServiceTest.findFaultsIsNotChecked" />
       </list>
     </recent_temporary>
   </component>
@@ -1262,48 +1270,47 @@
       <updated>1491906801959</updated>
       <workItem from="1491906803183" duration="15738000" />
       <workItem from="1491933619551" duration="893000" />
-      <workItem from="1491934616022" duration="11765000" />
+      <workItem from="1491934616022" duration="21244000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SigninDaoTest_findSigninRECByDate - 2017.04.12 at 15h 39m 16s.xml">
-      <configuration name="SigninDaoTest.findSigninRECByDate" configurationId="JUnit" />
+    <history-entry file="FaultServiceTest_findFaultsByTchId - 2017.04.14 at 17h 01m 54s.xml">
+      <configuration name="FaultServiceTest.findFaultsByTchId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SigninDaoTest_findSigninRECByTchId - 2017.04.12 at 15h 38m 58s.xml">
-      <configuration name="SigninDaoTest.findSigninRECByTchId" configurationId="JUnit" />
+    <history-entry file="FaultServiceTest_findFaultsIsChecked - 2017.04.14 at 17h 02m 08s.xml">
+      <configuration name="FaultServiceTest.findFaultsIsChecked" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SigninDaoTest_findSigninRECByTchId - 2017.04.12 at 15h 39m 07s.xml">
-      <configuration name="SigninDaoTest.findSigninRECByTchId" configurationId="JUnit" />
+    <history-entry file="FaultServiceTest_findFaultsIsNotChecked - 2017.04.14 at 17h 02m 15s.xml">
+      <configuration name="FaultServiceTest.findFaultsIsNotChecked" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_deleteATchById - 2017.04.12 at 15h 51m 28s.xml">
-      <configuration name="TeacherDaoTest.deleteATchById" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_deleteSigninRECById - 2017.04.14 at 17h 06m 47s.xml">
+      <configuration name="SigninServiceTest.deleteSigninRECById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_findAllTch - 2017.04.12 at 15h 49m 06s.xml">
-      <configuration name="TeacherDaoTest.findAllTch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_deleteSigninRECById - 2017.04.14 at 17h 07m 39s.xml">
+      <configuration name="SigninServiceTest.deleteSigninRECById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_findAllTch - 2017.04.12 at 15h 50m 04s.xml">
-      <configuration name="TeacherDaoTest.findAllTch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_findSigninRECByDate - 2017.04.14 at 17h 08m 42s.xml">
+      <configuration name="SigninServiceTest.findSigninRECByDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_findAllTch - 2017.04.12 at 15h 50m 51s.xml">
-      <configuration name="TeacherDaoTest.findAllTch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_findSigninRECByTchId - 2017.04.14 at 17h 08m 38s.xml">
+      <configuration name="SigninServiceTest.findSigninRECByTchId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_insertATch - 2017.04.12 at 15h 50m 54s.xml">
-      <configuration name="TeacherDaoTest.insertATch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_insertSigninREC - 2017.04.14 at 17h 07m 44s.xml">
+      <configuration name="SigninServiceTest.insertSigninREC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_insertATch - 2017.04.12 at 15h 51m 09s.xml">
-      <configuration name="TeacherDaoTest.insertATch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_insertSigninREC - 2017.04.14 at 17h 08m 29s.xml">
+      <configuration name="SigninServiceTest.insertSigninREC" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherDaoTest_insertATch - 2017.04.12 at 15h 51m 22s.xml">
-      <configuration name="TeacherDaoTest.insertATch" configurationId="JUnit" />
+    <history-entry file="SigninServiceTest_insertSigninREC - 2017.04.14 at 17h 08m 35s.xml">
+      <configuration name="SigninServiceTest.insertSigninREC" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28396000" />
+    <option name="totallyTimeSpent" value="37875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1324,11 +1331,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22596844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31707317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1365,11 +1372,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22596844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31707317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1501,14 +1508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.SqlMapConfig.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1576,62 +1575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/curriculumMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Fault.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/FaultDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/faultMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <marker date="1491968211000" expanded="true" signature="314:335" ph="SELECT * FRO... fault" />
-            <marker date="1491968211000" expanded="true" signature="1352:1489" ph="INSERT INTO fault... " />
-            <marker date="1491968211000" expanded="true" signature="1568:1602" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/1ff6ed0d/22a71420-ccd6-4df8-b3bc-76c81274615a/laboratory.signin">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1642,16 +1585,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/CurriculumDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1684,14 +1617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/SigninDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/SigninDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-199">
@@ -1700,14 +1625,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Teacher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="864">
+          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/CurriculumDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/TeacherDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1721,18 +1661,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/curriculumMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1491937146000" expanded="true" signature="324:351" ph="SELECT * FRO... curriculum" />
+            <marker date="1491937146000" expanded="true" signature="894:1050" ph="INSERT INTO curriculum... " />
+            <marker date="1491937146000" expanded="true" signature="1128:1167" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/CurriculumDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="56" column="75" lean-forward="false" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/TeacherDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="267">
+          <caret line="56" column="71" lean-forward="false" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="71" />
+          <folding>
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/FaultDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="77" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/CurriculumServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/FaultDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="54" column="77" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/entity/Fault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/faultMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <marker date="1491968211000" expanded="true" signature="314:335" ph="SELECT * FRO... fault" />
+            <marker date="1491968211000" expanded="true" signature="1352:1489" ph="INSERT INTO fault... " />
+            <marker date="1491968211000" expanded="true" signature="1568:1602" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/teacherMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="7" column="78" lean-forward="false" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        <state relative-caret-position="192">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <marker date="1491983401000" expanded="true" signature="223:246" ph="SELECT * FRO... teacher" />
             <marker date="1491983401000" expanded="true" signature="499:554" ph="INSERT INTO teacher... " />
@@ -1743,8 +1764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/signinMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="504">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="35" />
           <folding>
             <marker date="1491982735000" expanded="true" signature="316:338" ph="SELECT * FRO... signin" />
             <marker date="1491982735000" expanded="true" signature="831:874" ph="DELETE FROM " />
@@ -1753,19 +1774,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/FaultDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/doc/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="77" />
+        <state relative-caret-position="274">
+          <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/dao/TeacherDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/SigninServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="67">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/FaultServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/jiashuaowei/service/TeacherServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/dao/SigninDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/CurriculumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/FaultService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/jiashuaowei/service/SigninService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

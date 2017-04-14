@@ -54,7 +54,7 @@ public class CurriculumDao {
      * @return
      */
     public boolean deleteACurrById(int id) {
-        int k = sqlSessionTemplate.delete("curriculumMapper.deleteACurr", id);
+        int k = sqlSessionTemplate.delete("curriculumMapper.deleteACurrById", id);
         return k > 0;
     }
 
