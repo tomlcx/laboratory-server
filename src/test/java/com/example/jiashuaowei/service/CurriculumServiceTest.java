@@ -33,7 +33,7 @@ public class CurriculumServiceTest {
 
     @Test
     public void findCurriculaByDate() throws Exception {
-        List<Curriculum> list = curriculumService.findCurriculaByDate(new Date(System.currentTimeMillis() - 24 * 3600 * 1000));
+        List<Curriculum> list = curriculumService.findCurrByDate(new Date(System.currentTimeMillis() - 24 * 3600 * 1000));
         System.out.println(list.size());
         for (Curriculum item : list) {
             System.out.println(item.getId());

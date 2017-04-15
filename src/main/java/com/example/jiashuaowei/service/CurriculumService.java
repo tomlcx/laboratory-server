@@ -29,13 +29,17 @@ public class CurriculumService {
         return curriculumDao.findCurrByDate(new Date(System.currentTimeMillis()));
     }
 
+    public List<Curriculum> findCurrByTchId(int teacherId) {
+        return curriculumDao.findCurrByTchId(teacherId);
+    }
+
     /**
      * 查询date日期的课表
      *
      * @param date
      * @return
      */
-    public List<Curriculum> findCurriculaByDate(Date date) {
+    public List<Curriculum> findCurrByDate(Date date) {
         return curriculumDao.findCurrByDate(date);
     }
 
@@ -44,10 +48,8 @@ public class CurriculumService {
      *
      * @param curriculum
      */
-    public void insertACurr(Curriculum curriculum) {
-        if (!curriculumDao.insertACurr(curriculum)) {
-            logger.error("添加课程出错");
-        }
+    public boolean insertACurr(Curriculum curriculum) {
+        return curriculumDao.insertACurr(curriculum);
     }
 
     /**
@@ -55,10 +57,8 @@ public class CurriculumService {
      *
      * @param id
      */
-    public void deleteACurrById(int id) {
-        if (!curriculumDao.deleteACurrById(id)) {
-            logger.error("删除课程出错");
-        }
+    public boolean deleteACurrById(int id) {
+        return curriculumDao.deleteACurrById(id);
     }
 
 

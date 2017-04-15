@@ -17,7 +17,7 @@ public class CurriculumDao {
     private SqlSessionTemplate sqlSessionTemplate;
 
     /**
-     * 查询date日期的老师的课程
+     * 查询老师的课程
      *
      * @param teacherId 老师id
      * @return
